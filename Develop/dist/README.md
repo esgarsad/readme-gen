@@ -1,44 +1,36 @@
 
-  # ds;lakfj 
+  # name of project
   
-  
-  ![badge](https://img.shields.io/badge/license-agpl-blue)
-    
   ## Table-of-Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  
   * [License](#license)
-    
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## [Description](#table-of-contents)
-  ;lkjsdf kljd sf
-  ;laksdjf slkdf 
-  ;lksdajf lkdjs f
-  ## [Installation](#table-of-contents)
-  ;fasldkjf ;lkajd f
-  ## [Usage](#table-of-contents)
-  ;alskdf ;lksja df
+  ## [Description]
+  enter a description
+  why this project
+  how to use
+  ## [Installation]
+  step by step
+  ## [Usage]
+  instructions
   
-  For more information on how to add screenshots for examples, visit the following website:
-  
-  [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
-  
+    
   
   ## [License](#table-of-contents)
   The application is covered under the following license:
   
-  [agpl](https://choosealicense.com/licenses/agpl)
+  [mit](https://choosealicense.com/licenses/mit)
     
     
  
-  ## [Tests](#table-of-contents)
-  ;laksdj flkj sdf
-  ## [Questions](#table-of-contents)
+  ## [Tests]
+  test the app
+  ## [Questions]
   Please contact me using the following links:
-  [GitHub](https://github.com/;lksdf lkj dfs)
-  [Email: ;lksjdf skdjf sdf](mailto:;lksjdf skdjf sdf)
+  [GitHub](https://github.com/igthub username)
+  [Email: email address](mailto:email address)

@@ -7,13 +7,13 @@ const fs = require('fs');
 const questions = [
   {
       type: 'input',
-      name: 'title',
-      message: 'What is the title of your project? (Required)',
+      name: 'projectName',
+      message: 'What is the name of your project? (Required)',
       validate: titleInput => {
           if (titleInput) {
               return true;
           } else {
-              console.log('Please enter your title!');
+              console.log('Please enter your project name!');
               return false;
           }
       }
@@ -34,25 +34,17 @@ const questions = [
   {
       type: 'input',
       name: 'email',
-      message: 'What is your email address? (Required)',
-      validate: githubInput => {
-          if (githubInput) {
-              return true;
-          } else {
-              console.log('Please enter your email address!');
-              return false;
-          }
-      }
+      message: 'What is your email address?',
   },
   {
       type: 'input',
       name: 'what',
-      message: 'What is your project and what problem will it solve? (Required)',
+      message: 'What is your project about?, please enter a description (Required)',
       validate: whatInput => {
           if (whatInput) {
               return true;
           } else {
-              console.log('Please enter what your project is!');
+              console.log('Please enter what your project is about!');
               return false;
           }
       }
@@ -118,15 +110,7 @@ const questions = [
   {
       type: 'input',
       name: 'test',
-      message: 'Please provide instructions on how to test the app. (Required)',
-      validate: testInput => {
-          if (testInput) {
-              return true;
-          } else {
-              console.log('Please enter your use test instructions!');
-              return false;
-          }
-      }
+      message: 'Please provide instructions on how to test the app.',
   }
 ];
 
