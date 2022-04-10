@@ -1,5 +1,5 @@
 
-  # name of project
+  # Readme generator
   
   ## Table-of-Contents
   * [Description](#description)
@@ -11,13 +11,13 @@
   * [Questions](#questions)
   
   ## [Description]
-  enter a description
-  why this project
-  how to use
+  A professional readme generator
+  to help improve efficiency
+  All you need to do is follow the prompts to create your readme
   ## [Installation]
-  step by step
+  Download inquirer from npm
   ## [Usage]
-  instructions
+  every time you need a readme file
   
     
   
@@ -29,8 +29,8 @@
     
  
   ## [Tests]
-  test the app
+  no needed
   ## [Questions]
-  Please contact me using the following links:
-  [GitHub](https://github.com/igthub username)
-  [Email: email address](mailto:email address)
+  Please contact me using the links below:
+  [GitHub](https://github.com/esgarsad)
+  [Email: navaedgar36@yahoo.com.mx](mailto:navaedgar36@yahoo.com.mx)

@@ -52,12 +52,12 @@ const questions = [
   {
       type: 'input',
       name: 'why',
-      message: 'Why did you create this project? (Required)',
+      message: 'What is the purpose of this app? (Required)',
       validate: whyInput => {
           if (whyInput) {
               return true;
           } else {
-              console.log('Please enter why you created this project!');
+              console.log('Please enter the purpose of the app!');
               return false;
           }
       }
@@ -65,12 +65,12 @@ const questions = [
   {
       type: 'input',
       name: 'how',
-      message: 'How will someone use this? (Required)',
+      message: 'How is the app used? (Required)',
       validate: howInput => {
           if (howInput) {
               return true;
           } else {
-              console.log('Please enter what your project is!');
+              console.log('Please enter what how to use the app!');
               return false;
           }
       }
@@ -78,7 +78,7 @@ const questions = [
   {
       type: 'input',
       name: 'installation',
-      message: 'Please provide step-by-step installation instructions for your project. (Required)',
+      message: 'Please provide installation instructions for your app. (Required)',
       validate: installInput => {
           if (installInput) {
               return true;
@@ -91,7 +91,7 @@ const questions = [
   {
       type: 'input',
       name: 'usage',
-      message: 'Please provide instructions and examples for use. (Required)',
+      message: 'Please provide usage terms/examples. (Required)',
       validate: usageInput => {
           if (usageInput) {
               return true;
@@ -135,19 +135,19 @@ const writeFile = fileContent => {
 const init = () => {
 
   return inquirer.prompt(questions)
-  .then(readmeData => {
-      return readmeData;
+  .then(retrievedData => {
+      return retrievedData;
   })
 }
 
 // Function call to initialize app
 init()
-.then(readmeData => {
-  console.log(readmeData);
-  return generateMarkdown(readmeData);
+.then(retrievedData => {
+  console.log(retrievedData);
+  return generateMarkdown(retrievedData);
 })
-.then(pageMD => {
-  return writeFile(pageMD);
+.then(infoGiven => {
+  return writeFile(infoGiven);
 })
 .then(writeFileResponse => {
   console.log(writeFileResponse.message);

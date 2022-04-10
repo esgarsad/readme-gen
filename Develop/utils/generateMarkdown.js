@@ -1,19 +1,8 @@
 
-// Function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) { 
-//   if (license !== 'no license') {
-//     return `
-//   ![badge](https://img.shields.io/badge/license-${license}-blue)
-//     `;
-//   } else {
-//     return ' ';
-//   }
-// }
 
 // Function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function licenseLink(license) {
   if (license !== 'no license') {
   return `
   [${license}](https://choosealicense.com/licenses/${license})
@@ -25,12 +14,12 @@ function renderLicenseLink(license) {
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function licenseType(license) {
   if (license !== 'no license') {
   return `
   ## [License](#table-of-contents)
   The application is covered under the following license:
-  ${renderLicenseLink(license)}
+  ${licenseLink(license)}
     `;
   } else {
     return ' ';
@@ -39,15 +28,6 @@ function renderLicenseSection(license) {
 
  // Function that returns license in table of contents
  // If there is no license, return an empty string
-function renderLicenseTOC(license) {
-  if (license !== 'no license') {
-  return `
-  * [License](#license)
-    `;
-  } else {
-    return ' ';
-  }
- }
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
@@ -73,12 +53,12 @@ function generateMarkdown(data) {
   ${data.usage}
   
     
-  ${renderLicenseSection(data.license)}
+  ${licenseType(data.license)}
  
   ## [Tests]
   ${data.test}
   ## [Questions]
-  Please contact me using the following links:
+  Please contact me using the links below:
   [GitHub](https://github.com/${data.githubUsername})
   [Email: ${data.email}](mailto:${data.email})
 `;
