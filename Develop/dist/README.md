@@ -1,5 +1,5 @@
 
-  # Readme generator
+  # README generator
   
   ## Table-of-Contents
   * [Description](#description)
@@ -11,13 +11,13 @@
   * [Questions](#questions)
   
   ## [Description]
-  A professional readme generator
-  to help improve efficiency
-  All you need to do is follow the prompts to create your readme
+  It is a README generator, it creates readme files in a short time
+  Its intention is to reduce the time required to  create a proffesional README file
+  execute node index in the terminal and you will be guided through a series of prompts to create your readme
   ## [Installation]
-  Download inquirer from npm
+  Install inquirer from npm library
   ## [Usage]
-  every time you need a readme file
+  Use it for every project!
   
     
   
@@ -29,8 +29,8 @@
     
  
   ## [Tests]
-  no needed
+  No test needed
   ## [Questions]
   Please contact me using the links below:
   [GitHub](https://github.com/esgarsad)
-  [Email: navaedgar36@yahoo.com.mx](mailto:navaedgar36@yahoo.com.mx)
+  [Email: navaedgar@gmail.com](mailto:navaedgar@gmail.com)
