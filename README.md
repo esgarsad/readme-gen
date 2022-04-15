@@ -1,4 +1,3 @@
-# Professional README Generator Starter Code
 
  # Readme generator
 
